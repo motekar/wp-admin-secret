@@ -28,6 +28,13 @@ Once activated and configured, users must visit your specified secret path to ac
 
 The plugin includes a settings page where you can set and manage your secret key. This key determines the secret path required to access the login page.
 
+### Troubleshooting
+
+If you forget the secret key and are locked out of the login page:
+1. Disable the plugin by renaming or removing the plugin folder in `wp-content/plugins`.
+2. Reinstall and reactivate the "Admin Secret" plugin through the Plugins menu in WordPress.
+3. Visit the "Admin Secret Settings" page under the Settings menu to reset your secret key.
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or issues, feel free to open an issue or pull request on GitHub.
